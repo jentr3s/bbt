@@ -1,0 +1,310 @@
+.container-fluid {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-bbt {
+    background-color: #1dc5ea;
+}
+
+.bg-bbt2 {
+    background-color: #f5f5f5;
+    font-family: monospace;
+    color: #545454;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.logo {
+    padding-bottom: 6em;
+}
+
+.desc1 {
+    font-size: 30px;
+}
+
+.mt-5rem {
+    margin-top: 5rem !important;
+}
+
+.newNblogTxt {
+    color: #00c6eb;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+  
+.contact-us {
+    color: #00c6eb;
+    font-size: 1.2em;   
+    letter-spacing: -1px;
+
+}
+
+.form-control {
+    background-color: #00c6eb;
+}
+
+.nopadding {
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.navbar {
+    padding-bottom: 1em;
+}
+
+hr.style {
+    border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+.list-group {
+    letter-spacing: 1px;
+    color: #555555;
+    font-size: 17px;
+}
+
+.image {
+    max-width: 100%;
+    height: 10em;
+}
+
+.arrow-img {
+    padding-top: 0.15em;
+}
+
+.lg-item1 {
+    width: 34em;
+}
+
+.lg-item2 {
+    width: 23em;
+    letter-spacing: -1px;
+}
+
+.a-link {
+    color: #545454;
+    font-family: monospace;
+    padding-left: 2em;
+    letter-spacing: -2px;
+    font-size: 1.3em;
+}
+
+a:hover { 
+    color: #00c8ec;
+}
+
+a.focus:link, a.focus:visited {
+    color:#00c8ec;
+}
+
+.col2 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.img2 {
+    width: 250em;
+    max-height: 100%;
+    height: 100%;
+}
+
+.featurette-heading {
+    font-size: 1.5em;
+    font-family: inherit;
+    letter-spacing: 1px;
+}
+
+.border-white {
+    border-style: solid;
+    border-width: thin;
+    margin-left: 2em;
+    text-align: center;
+    line-height: 32px;  
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+.form-desc {
+    letter-spacing: -1px;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.form-desc2 {
+    width: 55em;
+    padding-left: 10em;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.option {
+    width: 13.8em;
+}
+
+.txtarea {
+    width: 42.55em;
+}
+
+.pr-6 {
+    padding-right: 6rem !important;
+}
+
+.form-inline, .form-div {
+    width: 46em;
+}
+
+@media only screen and (max-width: 500px) {
+    .lg-item1{
+        width: 40em;
+    }
+
+    .form-inline, .form-div {
+        width: 35em;
+        padding-left: 6em;
+    }
+
+    .form-inline2[_ngcontent-c0] {
+        width: 50em;
+    }
+
+    .option {
+        width: 9.2em;
+    }
+
+    .txtarea {
+        width: 28.9em;
+    }
+
+    .container-fluid {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 49em;
+    }
+
+    .navbar > .container, .navbar > .container-fluid {
+        width: 60em;
+    }
+
+    .form-desc2 {
+        width: 51.5em;
+        padding-left: 6em;
+        font-size: 14px;
+        font-family: arial;
+    }
+
+    .footer-center {
+        width: 800px;
+    }
+
+    .footer-copyright[_ngcontent-c0] {
+        padding-left: 20em;
+        font-size: 13px;
+    }
+
+    .row-footer[_ngcontent-c0] {
+        text-align: center;
+        padding-left: 200px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+
+
+}
+
+.footer {
+    background-color: #2d2d2d;
+}
+
+.footer-center {
+    width:800px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.center {
+    width: 97%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.text-uppercase {
+    font-size: 14px;
+}
+
+.input2 {
+    background-color: #2d2d2d;
+    font-size: 15px;
+}
+
+.form-inline2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 55em;
+}
+
+.footer-font {
+    font-size: 12px;
+}
+
+.col-md-2 {
+    max-width: 10.9%;
+    
+    font-size: 10px;
+}
+
+.row-footer {
+    text-align: center;
+    padding-left: 350px;
+}
+
+.footer-number {
+    padding-left: 24.4em;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.footer-email {
+    padding-left: 20em;
+}
+
+.footer-copyright {
+    padding-left: 50em;
+    font-size: 13px;
+}
+
+.copyright {
+    width: 420px;
+}
